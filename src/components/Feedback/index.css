@@ -1,0 +1,60 @@
+/* Write your CSS code here. */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  background-size: cover;
+}
+.inner {
+  height: 40vh;
+  width: 40vw;
+  background-color: white;
+}
+.maincont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.emoji {
+  display: flex;
+  flex-direction: row;
+}
+.indemoji {
+  display: flex;
+  flex-direction: column;
+}
+.emojiimage {
+  height: 50px;
+  width: 70px;
+}
+.listcont {
+  display: flex;
+  flex-direction: row;
+}
+.listitem {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.subcont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.loveicon {
+  height: 50px;
+  width: 70px;
+}
+.btn {
+  border: 0px;
+  background-color: transparent;
+}
+.listitem {
+  list-style: none;
+  padding: 5px;
+  align-items: center;
+}
